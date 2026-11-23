@@ -14,7 +14,7 @@ human approval for irreversible actions, evaluation harnesses and tamper-evident
 
 | Project | What it shows |
 |---|---|
-| audit-team | Multi-agent audit team: CrewAI roles + LangGraph lifecycle (checkpoints, human-in-the-loop interrupt, resume) behind a default-deny gateway. 284 tests, CI. |
+| [audit-team](https://github.com/samTachet/audit-team) | Multi-agent audit team: CrewAI roles + LangGraph lifecycle (checkpoints, human-in-the-loop interrupt, resume) behind a default-deny gateway. 284 tests, CI. |
 | [Acsi-agent-audit](https://github.com/samTachet/Acsi-agent-audit) | Constrained agent: typed tools, action gateway, human approval, budgets, hash-chained replayable journal, 18 reference scenarios, regression baselines. |
 | [trouville-agents](https://github.com/samTachet/trouville-agents) | Generative Agents (Park et al., 2023) rebuilt with local LLMs (Ollama): memory stream, reflection, planning, dialogue; FastAPI backend, tests. |
 | [predictive-maintenance-mlops](https://github.com/samTachet/predictive-maintenance-mlops) | End-to-end MLOps: data pipeline, MLflow tracking, training, tests, CI/CD, Docker. |
